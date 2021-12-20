@@ -1,0 +1,291 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 100px;
+    padding: 20px 100px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 50px;
+    text-transform: uppercase;
+    z-index: 9;
+}
+
+.nav-item .active {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.nav-item .active:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -8px;
+    margin-left: 9px;
+    margin-right: 9px;
+    height: 0;
+    width: 50%;
+    border: 3px solid var(--color2);
+    border-radius: 3px;
+}
+
+.nav-language {
+    display: block;
+    border: 2px solid #d1d1d1;
+    color: #fff;
+    border-radius: 80px;
+    padding: 8px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none !important;
+    z-index: 99;
+    position: relative;
+}
+
+.nav-language:hover {
+    border: 2px solid var(--color1);
+    color: var(--color1) !important;
+}
+
+.hero-section {
+    padding: 120px 100px;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+}
+
+.hero-section p {
+    font-size: 20px;
+}
+
+.btn-learnmore {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color1);
+    color: #fff;
+    padding: 7px;
+}
+
+.btn-learnmore:hover {
+    background-color: #fff;
+    border: 2px solid var(--color1);
+    color: var(--color1);
+    padding: 6px;
+}
+
+.product-section {
+    margin-top: -250px;
+}
+
+.banner-left {
+    position: relative;
+}
+
+.banner-left h1 {
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    font-size: 50px;
+}
+
+.service-section {
+    background-color: var(--color2);
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.service-section .title {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.service-section .content {
+    padding: 120px 80px;
+}
+
+.service-section div p {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.service-section div a {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 9px;
+}
+
+.service-section div a:hover {
+    background-color: #fff;
+    color: var(--color2);
+}
+
+.service-section img {
+    margin-top: 50px;
+}
+
+.product-card {
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+.product-card:hover {
+    box-shadow: var(--shadow1);
+    border: none;
+    text-decoration: none;
+}
+
+.btn-viewnmore {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color2);
+    color: #fff;
+    padding: 7px;
+    margin-top: 80px;
+}
+
+.btn-viewnmore:hover {
+    background-color: #fff;
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    padding: 6px;
+}
+
+.btn-visit {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    padding: 7px;
+    margin-top: 80px;
+}
+
+.btn-visit:hover {
+    background-color: var(--color2);
+    color: #fff;
+}
+
+.section-client {
+    padding: 50px;
+}
+
+.section-client a {
+    float: right;
+    margin-top: -33px;
+    margin-right: 20px;
+}
+
+.client-card {
+    position: relative;
+}
+
+.client-card img {
+    border-radius: 10px;
+}
+
+.client-card p {
+    position: absolute;
+    top: 80%;
+    left: 110px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.section-static {
+    margin-top: 100px;
+}
+
+.section-contact {
+    padding: 100px 50px 0px;
+}
+
+.contact-card {
+    box-shadow: var(--shadow1);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contact-card input {
+    padding: 22px;
+    border-color: #f1f1f1;
+    border-radius: 6px;
+}
+
+.btn-send {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color2);
+    color: #fff;
+    padding: 7px;
+    margin-top: 36px;
+    float: right;
+}
+
+.btn-send:hover {
+    background-color: #fff;
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    padding: 6px;
+}
+
+.section-footer {
+    padding: 80px 100px 50px;
+    border-top: 2px solid #f1f1f1;
+    background-color: #fff;
+    /* width: 100%;
+    position: absolute;
+    bottom: 0; */
+}
+
+.section-product-hero {
+    background-color: var(--color1);
+    padding: 80px;
+}
+
+.section-product-content {
+    padding: 100px;
+}
+
+.nav-pills {
+    margin-top: -20px;
+}
+
+.nav-pills .nav-link {
+    color: gray;
+    margin-left: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #f1f1f1;
+}
+
+.nav-pills .nav-link:hover {
+    color: var(--color1);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--color1);
+    background-color: #fff;
+    border-right: 5px solid var(--color1);
+    border-radius: 0px;
+}
