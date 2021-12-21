@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-desk">
         <a class="navbar-brand font-montserrat-bold" href="#">POLARIS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,28 +44,107 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-lg-5">
-            <div class="hero-section">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-mob"
+        style="display: none; padding: 20px; border-bottom: 1px solid #f1f1f1;">
+        <a class="navbar-brand font-montserrat-bold" href="index.html">POLARIS</a>
+        <button class="navbar-toggler" style="margin-right: 20px; float: right;" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <h1 class="font-montserrat-bold">We <b class="color2">Improving</b><br>
-                    qualities of life</h1>
-                <p class="font-montserrat-medium mt-3">
-                    We improving quitless of life <br>
-                    by providing and serving <br>
-                    the best medical equipment <br>
-                    in Indonesia.
-                </p>
-                <a href="#" class="btn btn-learnmore font-montserrat-medium mt-2">Learn More</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav font-montserrat-medium text-uppercase">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+
+    <div class="hero-banner-desk">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="hero-section">
+
+                    <h1 class="font-montserrat-bold">We <b class="color2">Improving</b><br>
+                        qualities of life</h1>
+                    <p class="font-montserrat-medium mt-3">
+                        We improving quitless of life <br>
+                        by providing and serving <br>
+                        the best medical equipment <br>
+                        in Indonesia.
+                    </p>
+                    <a href="#" class="btn btn-learnmore font-montserrat-medium mt-2">Learn More</a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <img src="assets/banner/home/section-hero.png"
+                    style="margin-left: -110px; z-index: 10; margin-top: -100px;" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-banner-mob" style="display:none; padding: 40px;">
+
+        <h2 class="font-montserrat-bold">We <b class="color2">Improving</b><br>
+            qualities of life</h2>
+        <p class="font-montserrat-medium mt-3">
+            We improving quitless of life <br>
+            by providing and serving <br>
+            the best medical equipment <br>
+            in Indonesia.
+        </p>
+        <a href="#" class="btn btn-learnmore font-montserrat-medium mt-2">Learn More</a>
+    </div>
+
+    <hr class="divider-hero" style="display:none;">
+    <div class="product-section-mob" style="display:none; padding: 40px">
+        <h3 class="font-montserrat-bold">Always Provide <br>
+            <b class="color2">Best</b> Product
+        </h3>
+
+        <div class="row" style="margin-top: -60px">
+            <div class="col-6">
+                <a class="product-card" href="product-detail.html">
+                    <center>
+                        <img src="assets/product/2.jpg" width="100%" alt="">
+                        <br>
+                        <p class="font-montserrat-medium text-dark mt-5">Basic Set</p>
+                    </center>
+                </a>
+            </div>
+            <div class="col-6">
+                <a class="product-card" href="product-detail.html">
+                    <center>
+                        <img src="assets/product/1.jpg" width="100%" alt="">
+                        <br>
+                        <p class="font-montserrat-medium text-dark mt-5">Tesla Handle</p>
+                    </center>
+                </a>
             </div>
         </div>
 
-        <div class="col-lg-3">
-            <img src="assets/banner/home/section-hero.png" style="margin-left: -110px; z-index: 10; margin-top: -100px;"
-                alt="">
-        </div>
+        <center>
+            <a href="product.html" class="btn btn-viewnmore font-montserrat-medium" style="margin-top: 30px">View
+                More</a>
+            <a href="#" class="btn btn-visit font-montserrat-medium" style="margin-top: 20px">Visit Principle</a>
+        </center>
     </div>
+
+
 
 
     <div class="product-section">
@@ -123,9 +202,26 @@
 
             </div>
         </div>
+    </div>
 
+    <div class="service-section-mob mt-5"
+        style="display:none; background-color: var(--color2); height: 520px; padding: 30px;">
+        <br>
+        <h3 class="font-montserrat-medium text-white">Our Service</h3>
+        <hr>
+        <br>
+        <div class="content mt-1">
+            <h3 class="text-white font-montserrat-medium">Marketing & Sales Services</h3>
+            <p class="text-white">We have more than 150 sales and <br>
+                marketing staff in our company. <br>
+                Each business division has their own <br>
+                marketing team, supported by highly <br>
+                trained & qualified product and <br>
+                application specialists.</p>
 
-
+            <a href="#" class="btn font-montserrat-medium mt-3 text-white"
+                style="border: 2px solid #fff; border-radius: 10px; width: 180px;">Show all services</a>
+        </div>
     </div>
 
     <div class="service-section">
@@ -154,6 +250,41 @@
         </div>
 
         <br>
+    </div>
+
+    <div class="section-client-mob" style="display:none; padding: 30px;">
+        <h3 class="font-montserrat-medium">Our Success Client</h3>
+        <br>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="client-card">
+                    <img width="100%" src="assets/client/1.png" alt="">
+                    <p style="left: 22%;" class="font-montserrat-medium">Client 1</p>
+                </div>
+                <br>
+            </div>
+            <div class="col-6">
+                <div class="client-card">
+                    <img width="100%" src="assets/client/2.png" alt="">
+                    <p style="left: 22%;" class="font-montserrat-medium">Client 1</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="client-card">
+                    <img width="100%" src="assets/client/3.png" alt="">
+                    <p style="left: 22%;" class="font-montserrat-medium">Client 1</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="client-card">
+                    <img width="100%" src="assets/client/4.png" alt="">
+                    <p style="left: 22%;" class="font-montserrat-medium">Client 1</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="#" class="font-montserrat-medium">Show all</a>
     </div>
 
     <div class="section-client">
@@ -188,6 +319,22 @@
         </div>
     </div>
 
+    <div class="section-static-mob" style="display:none; padding: 0px 30px">
+        <img src="assets/banner/home/maps.png" width="100%" alt="">
+        <h3 class="font-montserrat-bold mt-5">We always ready <br> for you</h3>
+        <br>
+        <h3 class="color2 font-montserrat-bold">400</h3>
+        <p class="color2 font-montserrat-medium">Marketing</p>
+        <br>
+        <h3 class="color2 font-montserrat-bold">2300</h3>
+        <p class="color2 font-montserrat-medium">Product Distribution</p>
+        <br>
+        <h3 class="color2 font-montserrat-bold">18</h3>
+        <p class="color2 font-montserrat-medium">City Support</p>
+
+        <br>
+    </div>
+
     <div class="section-static">
         <center>
             <h2 class="font-montserrat-bold">We always ready for you</h2>
@@ -208,6 +355,69 @@
 
             <img src="assets/banner/home/maps.png" alt="">
         </center>
+    </div>
+
+
+    <div class="section-contact-mob" style="display:none; padding: 100px 30px;">
+        <h2 class="font-montserrat-medium">Contact Us</h2>
+        <br>
+
+        <form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your email address">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Office Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your office name">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your name">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Office Address</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your office address">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Personal Number</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your personal number">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Office Number</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your office number">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Address</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="your address">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#" class="btn btn-send font-montserrat-medium mr-3">Send</a>
+                </div>
+            </div>
+        </form>
     </div>
 
     <div class="section-contact">
