@@ -1,0 +1,41 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.banner-login {
+    height: 220px;
+    background-color: var(--color2);
+}
+
+.card-login {
+    height: 440px;
+    background-color: #fff;
+    margin: -150px 350px;
+    padding: 50px 150px;
+    border-radius: 15px;
+}
+
+.form-control {
+    border: none;
+    background-color: #f1f1f1;
+    height: 60px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-login {
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--color2);
+    padding: 9px;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+    color: var(--color2);
+    border: 2px solid var(--color2);
+    padding: 8px;
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/color-font.css">
+    <link rel="stylesheet" href="../css/admin-product.css">
+    <title>POLARIS - ADMIN</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-color2">
+        <a class="navbar-brand font-montserrat-bold text-white" href="dashboard.html">POLARIS</a>
+
+        <div class="mr-auto ml-5">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-uppercase font-montserrat-medium">
+                    <a class="nav-link text-white" href="product.html">Product</a>
+                    <a class="nav-link text-white" href="#">Client</a>
+                    <a class="nav-link text-white" href="#">Services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ml-auto">
+            <div class="dropdown">
+                <button
+                    class="btn btn-secondary font-montserrat-regular dropdown-toggle bg-color2 border-0 text-uppercase"
+                    type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Settings
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Account</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-banner">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-color2">
+                <li class="breadcrumb-item"><a href="product.html" class="text-white">Product</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Edit</li>
+            </ol>
+        </nav>
+
+        <h3 class="ml-3 font-montserrat-medium text-white">Edit Product</h3>
+        <br>
+
+        <div class="card-form">
+            <h3 class="font-montserrat-medium">Form</h3>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Product Name</label>
+                    <input type="text" value="Product 1" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Product Brand</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>KAWE</option>
+                        <option>BURLODGE</option>
+                        <option>INSAUSTI</option>
+                        <option>MAK</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Product Image</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Product Description</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1">Lorem impsum</textarea>
+                </div>
+                <br>
+                <a href="product.html" class="btn btn-secondary text-light">Cancel</a>
+                <a href="#" class="btn bg-color1 text-light">Submit</a>
+            </form>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

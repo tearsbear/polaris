@@ -1,0 +1,71 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    padding: 30px 150px;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.bg-banner {
+    background-color: var(--color2);
+    height: 250px;
+    padding: 30px 150px;
+}
+
+.dropdown-toggle:hover {
+    background-color: var(--color2) !important;
+}
+
+.bg-banner p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.card-list {
+    background-color: #fff;
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+
+.card-list p {
+    font-size: 16px;
+}
+
+.card-list a {
+    display: block;
+    width: 120px;
+    height: 35px;
+    padding: 6px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color2);
+    text-decoration: none;
+}
+
+.card-list a:hover {
+    background-color: #fff;
+    color: var(--color2);
+    border: 2px solid var(--color2);
+    padding: 4px;
+}
+
+.card-table {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px 40px;
+}
+
+.section-inbox {
+    padding: 180px 150px 50px;
+}
+
+.section-catalog {
+    padding: 0px 150px 50px;
+}

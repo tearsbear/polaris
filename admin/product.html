@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/color-font.css">
+    <link rel="stylesheet" href="../css/admin-product.css">
+    <title>POLARIS - ADMIN</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-color2">
+        <a class="navbar-brand font-montserrat-bold text-white" href="dashboard.html">POLARIS</a>
+
+        <div class="mr-auto ml-5">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-uppercase font-montserrat-medium">
+                    <a class="nav-link text-white" href="product.html">Product</a>
+                    <a class="nav-link text-white" href="#">Client</a>
+                    <a class="nav-link text-white" href="#">Services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ml-auto">
+            <div class="dropdown">
+                <button
+                    class="btn btn-secondary font-montserrat-regular dropdown-toggle bg-color2 border-0 text-uppercase"
+                    type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Settings
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Account</a>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-banner">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-color2">
+                <li class="breadcrumb-item"><a href="dashboard.html" class="text-white">Dashboard</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product</li>
+            </ol>
+        </nav>
+
+        <h3 class="ml-3 font-montserrat-medium text-white">Product Page</h3>
+        <p class="ml-3 text-white">30 Product</p>
+        <a href="#" class="btn btn-light color2 ml-3" data-toggle="modal" data-target="#exampleModal">Add new
+            product</a>
+
+        <br>
+
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="card" style="border-radius: 10px; border: none;">
+                    <img style="border-radius: 10px 10px 0px 0px;" width="100%" src="../assets/product/1.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Product 1
+                        </h5>
+                        <p class="card-text" style="font-size: 15px">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam ornare diam nulla
+                        </p>
+                        <a href="product-edit.html" class="btn bg-color2 text-light">Edit</a>
+                        <a href="#" class="btn btn-danger dels">Delete</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="col-4">
+                <div class="card" style="border-radius: 10px; border: none;">
+                    <img style="border-radius: 10px 10px 0px 0px;" width="100%" src="../assets/product/2.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Product 2
+                        </h5>
+                        <p class="card-text" style="font-size: 15px">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam ornare diam nulla
+                        </p>
+                        <a href="product-edit.html" class="btn bg-color2 text-light">Edit</a>
+                        <a href="#" class="btn btn-danger dels">Delete</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="col-4">
+                <div class="card" style="border-radius: 10px; border: none;">
+                    <img style="border-radius: 10px 10px 0px 0px;" width="100%" src="../assets/product/3.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Product 3
+                        </h5>
+                        <p class="card-text" style="font-size: 15px">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam ornare diam nulla
+                        </p>
+                        <a href="product-edit.html" class="btn bg-color2 text-light">Edit</a>
+                        <a href="#" class="btn btn-danger dels">Delete</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Product Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Product Brand</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>KAWE</option>
+                                <option>BURLODGE</option>
+                                <option>INSAUSTI</option>
+                                <option>MAK</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Product Image</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Product Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

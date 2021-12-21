@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/color-font.css">
+    <link rel="stylesheet" href="../css/admin-dashboard.css">
+    <title>POLARIS - ADMIN</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-color2">
+        <a class="navbar-brand font-montserrat-bold text-white" href="dashboard.html">POLARIS</a>
+
+        <div class="mr-auto ml-5">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-uppercase font-montserrat-medium">
+                    <a class="nav-link text-white" href="product.html">Product</a>
+                    <a class="nav-link text-white" href="#">Client</a>
+                    <a class="nav-link text-white" href="#">Services</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ml-auto">
+            <div class="dropdown">
+                <button
+                    class="btn btn-secondary font-montserrat-regular dropdown-toggle bg-color2 border-0 text-uppercase"
+                    type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Settings
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Account</a>
+                    <a class="dropdown-item" href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="bg-banner">
+        <h2 class="font-montserrat-medium text-white">Welcome back, Admin 👋</h2>
+        <p class="text-white">Today, 22 December 2021.</p>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="card-list color2">
+                    <h2>30</h2>
+                    <p class="font-montserrat-regular text-uppercase">Product</p>
+                    <a href="product.html">VIEW</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card-list color2">
+                    <h2>50</h2>
+                    <p class="font-montserrat-regular text-uppercase">Client</p>
+                    <a href="#">VIEW</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card-list color2">
+                    <h2>10</h2>
+                    <p class="font-montserrat-regular text-uppercase">Services</p>
+                    <a href="#">VIEW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-inbox">
+        <div class="card-table">
+            <h2 class="font-montserrat-medium color2">Inbox (3)</h2>
+            <p>List message from user</p>
+            <br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Personal Number</th>
+                        <th scope="col">Office Name</th>
+                        <th scope="col">Office Number</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Adela</td>
+                        <td>adela@gmail.com</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=08510072380">08510072380</a>
+                        </td>
+                        <td>RS SILOAM</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=021250300">021250300</a>
+                        </td>
+                        <td><a href="#" class="btn btn-success">DONE</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Bagas</td>
+                        <td>bagas@gmail.com</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=0897622092">0897622092</a>
+                        </td>
+                        <td>RS Kusuma</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=021222100">021222100</a>
+                        </td>
+                        <td><a href="#" class="btn btn-success">DONE</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Dika</td>
+                        <td>dika@gmail.com</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=0897622092">0877230399</a>
+                        </td>
+                        <td>RS Cipto</td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send/?phone=021110200">021110200</a>
+                        </td>
+                        <td><a href="#" class="btn btn-success">DONE</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="section-catalog">
+        <div class="card-table">
+            <h2 class="font-montserrat-medium color2">Catalog</h2>
+            <p>List uploaded catalog</p>
+            <br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">File</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Catalog 2021</td>
+                        <td><a href="#">CATALOG-2021.pdf</a></td>
+                        <td><a href="#" class="btn btn-danger">DELETE</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Admin Account</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
