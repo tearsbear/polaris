@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-desk">
         <a class="navbar-brand font-montserrat-bold" href="#">POLARIS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav font-montserrat-medium">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Product</a>
+                    <a class="nav-link" href="product.html">Product</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
@@ -43,11 +43,39 @@
         </div>
 
         <div class="mr-auto">
-            <a class="nav-language text-dark" href="#">
+            <a class="nav-language" href="#">
                 <img width="22" src="assets/flag/en.png" alt=""> EN
             </a>
         </div>
     </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-mob"
+        style="display: none; padding: 20px; border-bottom: 1px solid #f1f1f1;">
+        <a class="navbar-brand font-montserrat-bold" href="index.html">POLARIS</a>
+        <button class="navbar-toggler" style="margin-right: 20px; float: right;" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav font-montserrat-medium text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 
     <div class="section-product-hero">
         <h2 class="font-montserrat-medium text-white">Always Provide <br>
@@ -62,8 +90,8 @@
                     <div style="padding: 22px">
                         <h5 class="font-montserrat-medium text-muted">Principle</h5>
                     </div>
-                    <div class="nav flex-column nav-pills pt-3 font-montserrat-regular" id="v-pills-tab" role="tablist"
-                        aria-orientation="vertical">
+                    <div class="nav flex-column pilstom nav-pills pt-3 font-montserrat-regular" id="v-pills-tab"
+                        role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                             role="tab" aria-controls="v-pills-home" aria-selected="true">KAWE</a>
                         <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
@@ -254,6 +282,98 @@
             </div>
         </div>
 
+    </div>
+
+
+
+    <div class="section-product-content-mob" style="display:none; padding: 30px;">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">KAWE</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">BURLODGE</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">INSAUSTI</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-waks-tab" data-toggle="pill" href="#pills-waks" role="tab"
+                    aria-controls="pills-waks" aria-selected="false">WAK</a>
+            </li>
+        </ul>
+        <hr>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row" style="margin-top: -80px">
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/2.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Basic Set</p>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/1.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Tesla Handle</p>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row" style="margin-top: -80px">
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/2.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Basic Set</p>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/1.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Tesla Handle</p>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="row" style="margin-top: -80px">
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/2.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Basic Set</p>
+                            </center>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a class="product-card" href="product-detail.html">
+                            <center>
+                                <img src="assets/product/1.jpg" width="100%" alt="">
+                                <br>
+                                <p class="font-montserrat-medium text-dark mt-5">Tesla Handle</p>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 

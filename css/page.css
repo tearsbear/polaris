@@ -267,11 +267,11 @@ body {
     padding: 100px;
 }
 
-.nav-pills {
+.pilstom {
     margin-top: -20px;
 }
 
-.nav-pills .nav-link {
+.pilstom .nav-link {
     color: gray;
     margin-left: 10px;
     padding: 20px;
@@ -279,11 +279,11 @@ body {
     border-top: 1px solid #f1f1f1;
 }
 
-.nav-pills .nav-link:hover {
+.pilstom .nav-link:hover {
     color: var(--color1);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.pilstom .nav-link.active, .pilstom .show>.nav-link {
     color: var(--color1);
     background-color: #fff;
     border-right: 5px solid var(--color1);
@@ -292,15 +292,16 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-    .navbar-desk, .hero-banner-desk, .product-section, .service-section, .section-client, .section-static, .section-contact {
+    .navbar-desk, .hero-banner-desk, .product-section, .service-section, .section-client, .section-static, .section-contact, .section-product-content, .section-product-detail, .section-product-related {
         display: none;
     }
 
-    .navbar-mob, .hero-banner-mob, .divider-hero, .product-section-mob, .service-section-mob, .section-client-mob, .section-static-mob, .section-contact-mob {
+    .navbar-mob, .hero-banner-mob, .divider-hero, .product-section-mob, .service-section-mob, .section-client-mob, .section-static-mob, .section-contact-mob, .section-product-content-mob, .section-product-detail-mob, .section-product-related-mob {
         display: block !important;
     }
 
-    .section-footer {
+    .section-footer, .section-product-hero {
         padding: 40px !important;
     }
+
 }
