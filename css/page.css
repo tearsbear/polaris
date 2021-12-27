@@ -292,11 +292,11 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-    .navbar-desk, .hero-banner-desk, .product-section, .service-section, .section-client, .section-static, .section-contact, .section-product-content, .section-product-detail, .section-product-related {
+    .navbar-desk, .hero-banner-desk, .product-section, .service-section, .section-client, .section-static, .section-contact, .section-product-content, .section-product-detail, .section-product-related, .section-about, .section-page-service {
         display: none;
     }
 
-    .navbar-mob, .hero-banner-mob, .divider-hero, .product-section-mob, .service-section-mob, .section-client-mob, .section-static-mob, .section-contact-mob, .section-product-content-mob, .section-product-detail-mob, .section-product-related-mob {
+    .navbar-mob, .hero-banner-mob, .divider-hero, .product-section-mob, .service-section-mob, .section-client-mob, .section-static-mob, .section-contact-mob, .section-product-content-mob, .section-product-detail-mob, .section-product-related-mob, .section-about-mob, .section-page-service-mob {
         display: block !important;
     }
 
